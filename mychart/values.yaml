@@ -4,7 +4,8 @@ image:
   repository: nginx
   tag: "latest"
   pullPolicy: IfNotPresent
-  service:
-    name: mychart
-    type: ClusterIP
-    port: 80
+
+service:
+  name: mychart
+  type: ClusterIP
+  port: 80
