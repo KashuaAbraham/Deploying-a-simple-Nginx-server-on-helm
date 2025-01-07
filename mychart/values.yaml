@@ -9,3 +9,7 @@ service:
   name: mychart
   type: ClusterIP
   port: 80
+    
+serviceAccount:
+  create: true
+  name: ""
